@@ -6,25 +6,15 @@ A Symfony 6.4 web application for managing films and actors.
 
 ## 📸 Screenshots
 
-### Films Gallery
-Browse your movie collection with a beautiful card-based interface, showing movie posters, genres, release years, and cast information.
+<p align="center">
+  <img src="docs/films-gallery.png" width="40%" alt="Films Gallery" title="Films Gallery">
+  <img src="docs/actor-profile.png" width="40%" alt="Actor Profile" title="Actor Profile">
+</p>
 
-![Films Gallery](docs/films-gallery.png)
-
-### Actor Profile
-View detailed actor information including nationality, salary, and their filmography.
-
-![Actor Profile](docs/actor-profile.png)
-
-### Add New Actor
-Simple form to add new actors to your database and associate them with films.
-
-![Add Actor Form](docs/add-actor-form.png)
-
-### Add New Film
-Create new film entries with title, poster image, release date, and genre.
-
-![Add Film Form](docs/add-film-form.png)
+<p align="center">
+  <img src="docs/add-actor-form.png" width="40%" alt="Add New Actor" title="Add New Actor">
+  <img src="docs/add-film-form.png" width="40%" alt="Add New Film" title="Add New Film">
+</p>
 
 ---
 
@@ -47,7 +37,6 @@ Create new film entries with title, poster image, release date, and genre.
 - [Running Tests](#running-tests)
 - [Useful Commands](#useful-commands)
 - [Project Structure](#project-structure)
-- [License](#license)
 
 ---
 
@@ -146,7 +135,7 @@ php bin/phpunit --verbose
 |---------|-------------|
 | `php bin/console cache:clear` | Clear the application cache |
 | `php bin/console doctrine:migrations:migrate` | Run database migrations |
-| `php bin/console doctrine:migrations:diff` | Generate a migration |
+| `php bin/console doctrine:migrations: diff` | Generate a migration |
 | `php bin/console make:entity` | Create a new entity |
 | `php bin/console make:controller` | Create a new controller |
 | `php bin/console debug:router` | List all routes |
@@ -176,7 +165,3 @@ projet_film_symfony/
 ```
 
 ---
-
-## 📄 License
-
-This project is proprietary software.
